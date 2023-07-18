@@ -41,7 +41,6 @@ class ScoreBoard:
 
     def print_all(self):
         current_node = self.head
-        # print(current_node)
         while current_node.next != None:
             print(current_node.data)
             current_node = current_node.next
